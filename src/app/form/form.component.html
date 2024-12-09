@@ -1,0 +1,44 @@
+<div class="container">
+  <h1>Cadastro de Produto:</h1>
+ <form [formGroup]="formgroupagendaa">
+   <div class="mb-3">
+     <label for="nome" class="form-label">nome: </label>
+     <input formControlnome="nome"
+            type="text"
+            class="form-control"
+            id="nome"
+            placeholder="Digite o seu nome">
+
+
+   </div>
+   <div class="mb-3">
+     <label for="nome" class="form-label">nome: </label>
+     <input
+         formControlnome="control"="nome"
+         type="text"
+         class="form-control"
+         id="nome"
+         placeholder="Digite o preço">
+   </div>
+   <div class="mb-3">
+     <label for="dia" class="form-label">dia: </label>
+     <input
+         formControlnome="nome"
+         type="text"
+         class="form-control"
+         id="nome"
+         placeholder="Digite a categoria">
+   </div>
+
+   <button *ngIf="isEditing" type="button"
+           class="btn btn-primary"
+           (click)="update()"
+           >Salvar</button>
+
+   <button *ngIf="!isEditing"  type="button"
+           class="btn btn-primary"
+           (click)="save()"
+           >Criar</button>
+ </form>
+
+</div>

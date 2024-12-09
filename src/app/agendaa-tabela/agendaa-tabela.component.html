@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="display-5">
+    Agenda de Tarefas
+  </div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nome</th>
+        <th scope="col">compromisso</th>
+        <th scope="col">dia</th>
+        <th scope="col">horario</th>
+        <th scope="col">localizacao</th>
+
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let agendaa of agendaa">
+        <th scope="row">{{agendaa.id}}</th>
+        <td>{{agendaa.nome}}</td>
+        <td>{{agendaa.compromisso}}</td>
+        <td>{{agendaa.dia}}</td>
+        <td>{{agendaa.horario}}</td>
+        <td>{{agendaa.localizacao}}</td>
+        <td><button class="btn btn-danger" (click)="delete(agendaa)"  >Remover</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

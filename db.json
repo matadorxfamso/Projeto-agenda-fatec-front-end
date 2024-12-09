@@ -1,0 +1,25 @@
+{
+  "agenda" : [
+    { "id"      : 1,
+    "nome"    : "Computador i7",
+    "compromisso"   : "6000.00",
+    "dia": "Eletrônicos",
+    "horario": "Eletrônicos",
+    "localizacao": "Eletrônicos"
+ },
+ { "id"      : 1,
+ "nome"    : "Computador i7",
+ "compromisso"   : "6000.00",
+ "dia": "Eletrônicos",
+ "horario": "Eletrônicos",
+ "localizacao": "Eletrônicos"
+},
+{ "id"      : 1,
+"nome"    : "Computador i7",
+"compromisso"   : "6000.00",
+"dia": "Eletrônicos",
+"horario": "Eletrônicos",
+"localizacao": "Eletrônicos"
+}
+  ]
+}
